@@ -11,10 +11,11 @@ Bundle 'gmarik/vundle'
 " "
 " " original repos on GitHub
 Bundle 'tpope/vim-fugitive'
+Bundle 'ruby.vim'
 Bundle 'tpope/vim-rails.git'
 Bundle 'tpope/vim-bundler.git'
+Bundle 'bling/vim-airline'
 Bundle 'scrooloose/nerdtree.git'
-Bundle 'ruby.vim'
 
 ""
 "" Basic Setup
