@@ -15,6 +15,8 @@ Bundle 'tpope/vim-bundler.git'
 Bundle 'scrooloose/nerdtree.git'
 Bundle 'ruby.vim'
 Bundle 'Buffergator'
+Bundle 'The-NERD-Commenter'
+Bundle 'bling/vim-airline'
 
 ""
 "" Basic Setup
@@ -124,6 +126,6 @@ au BufRead,BufNewFile {Gemfile,Rakefile,Vagrantfile,Thorfile,Procfile,Guardfile,
 "" color
 colorscheme railscasts
 "" NERD Tree
-autocmd vimenter * NERDTree
+autocmd vimenter * if !argc() | NERDTree | endif
 map <C-n> :NERDTreeToggle<CR>
 
