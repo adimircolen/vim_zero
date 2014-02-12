@@ -14,6 +14,10 @@ Bundle 'tpope/vim-rails.git'
 Bundle 'tpope/vim-bundler.git'
 Bundle 'scrooloose/nerdtree.git'
 Bundle 'ruby.vim'
+Bundle 'rake.vim'
+Bundle 'Vim-Rspec'
+Bundle 'ctrlp.vim'
+Bundle 'ack.vim'
 Bundle 'Buffergator'
 Bundle 'The-NERD-Commenter'
 Bundle 'bling/vim-airline'
@@ -127,5 +131,5 @@ au BufRead,BufNewFile {Gemfile,Rakefile,Vagrantfile,Thorfile,Procfile,Guardfile,
 colorscheme railscasts
 "" NERD Tree
 autocmd vimenter * if !argc() | NERDTree | endif
-map <C-n> :NERDTreeToggle<CR>
+map <C-t> :NERDTreeToggle<CR>
 
