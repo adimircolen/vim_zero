@@ -1,0 +1,60 @@
+Bundle 'tpope/vim-rails.git'
+Bundle 'msanders/snipmate.vim.git'
+Bundle 'tComment'
+Bundle 'ack.vim'
+Bundle 'bling/vim-airline'
+Bundle 'scrooloose/nerdtree.git'
+Bundle 'mattn/emmet-vim'
+
+"    " Edit files using sudo/su
+"    Bundle 'chrisbra/SudoEdit.vim'
+"
+"    " <Tab> everything!
+"    Bundle 'ervandew/supertab'
+    Bundle 'vim-scripts/supertab.git'
+"
+   " Fuzzy finder (files, mru, etc)
+   Bundle 'kien/ctrlp.vim'
+"
+"    " A pretty statusline, bufferline integration
+"    Bundle 'itchyny/lightline.vim'
+"    Bundle 'bling/vim-bufferline'
+"
+"    " Easy... motions... yeah.
+"    Bundle 'Lokaltog/vim-easymotion'
+"
+"    " Glorious colorscheme
+"    Bundle 'nanotech/jellybeans.vim'
+"
+"    " Super easy commenting, toggle comments etc
+"    Bundle 'scrooloose/nerdcommenter'
+"
+"    " Autoclose (, " etc
+"    Bundle 'Townk/vim-autoclose'
+"
+   " Git wrapper inside Vim
+   Bundle 'tpope/vim-fugitive'
+"
+"    " Handle surround chars like ''
+"    Bundle 'tpope/vim-surround'
+"
+"    " Align your = etc.
+"    Bundle 'vim-scripts/Align'
+"
+"    " Snippets like textmate
+"    Bundle 'MarcWeber/vim-addon-mw-utils'
+"    Bundle 'tomtom/tlib_vim'
+"    Bundle 'honza/vim-snippets'
+"    Bundle 'garbas/vim-snipmate'
+"
+"    " A fancy start screen, shows MRU etc.
+"    Bundle 'mhinz/vim-startify'
+"
+   " Awesome syntax checker.
+   " REQUIREMENTS: See :h syntastic-intro
+   Bundle 'scrooloose/syntastic'
+"
+"    " Functions, class data etc.
+"    " REQUIREMENTS: (exuberant)-ctags
+"    Bundle 'majutsushi/tagbar'
+ 

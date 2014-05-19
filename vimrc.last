@@ -1,0 +1,5 @@
+set colorcolumn=80
+"" NERD Tree
+autocmd vimenter * if !argc() | NERDTree | endif
+map <C-t> :NERDTreeToggle<CR>
+map <C-/> :TComment<CR>
