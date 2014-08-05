@@ -1,10 +1,10 @@
 Bundle 'tpope/vim-rails.git'
-Bundle 'msanders/snipmate.vim.git'
 Bundle 'tComment'
 Bundle 'ack.vim'
 Bundle 'bling/vim-airline'
 Bundle 'scrooloose/nerdtree.git'
 Bundle 'mattn/emmet-vim'
+Bundle 'scrooloose/snipmate-snippets'
 
 "    " Edit files using sudo/su
 "    Bundle 'chrisbra/SudoEdit.vim'
